@@ -49,7 +49,7 @@ function root(){
 }
 function del(){
     let final =Number.parseFloat( d.innerText);
-    final= Number.parseFloat(final/10);
+    final= Number.parseInt(final/10);
     console.log(final);
     d.innerHTML= final
 }
