@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Audiowide', cursive;
-
-
-
 }
 
 body {
@@ -19,9 +16,6 @@ body {
     font-size: 50px;
 }
 
-/* .calbox{
-    
-} */
 .dis {
     display: flex;
     justify-content: center;
@@ -77,4 +71,14 @@ button {
 
 .equals {
     background-color: orange;
+}
+
+.equals:active {
+    background-color: greenyellow;
+    color: white;
+}
+
+button:active {
+    background-color: rgba(255, 255, 255);
+    color: #090D0E;
 }
